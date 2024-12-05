@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            transition-property: border-radius, border, transform;
+            transition-duration: 5s;
+        }
+
+        .container:hover {
+            border-radius: 50%;
+            border: 5px solid rebeccapurple;
+            transform: rotate(340deg);
+        }
+
+        .container2 {
+            height: 300px;
+            width: 300px;
+            background-color: aqua;
+            animation-name: animated-container;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animated-container {
+
+            /* Animation code */
+            0% {
+                background-color: red;
+                margin-left: 400px;
+            }
+
+            25% {
+                background-color: yellow;
+                margin-top: 400px;
+            }
+
+            50% {
+                background-color: bisque;
+                margin-left: 0;
+            }
+
+            75% {
+                background-color: black;
+                margin-top: 0;
+            }
+
+        }
+
+        .container3 {
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            overflow: scroll;
+            -webkit-box-shadow: 11px 16px 14px 1px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: 11px 16px 14px 1px rgba(0, 0, 0, 0.5);
+            box-shadow: 11px 16px 14px 1px rgba(0, 0, 0, 0.5);
+        }
+
+        @media (max-width:499px) {
+            .container3 {
+                background-color: blue;
+            }
+        }
+
+        @media (min-width: 500px) and (max-width:800px) {
+            .container3 {
+                background-color: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="container"></div> -->
+    <!-- <div class="container2"></div> -->
+    <div class="container3">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam odit, aliquam accusamus ipsam alias quas
+        illum dolorem quasi nostrum tempora, quis earum harum. Repudiandae, corrupti ullam esse error non voluptatum.
+    </div>
+</body>
+
+</html>
